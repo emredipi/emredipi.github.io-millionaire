@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background: url("/src/img/bg.png") fixed center;
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  color: white;
+}
+body .container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  max-width: 800px;
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+body .box {
+  background: black;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: 700;
+}
+body .question-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+body .question-container .top {
+  margin-bottom: -11px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+}
+body .question-container #stats {
+  padding-bottom: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-width: 0;
+}
+body .question-container #stop-watch {
+  padding-bottom: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-width: 0;
+}
+body .question-container #question {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+body .question-container #extra {
+  max-width: 100%;
+}
+body .question-container #extra img {
+  border-radius: 5px;
+  margin: 10px 0;
+  width: 100%;
+}
+body .question-container #extra iframe {
+  border: none;
+}
+body .question-container #options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+body .question-container #options .box {
+  cursor: pointer;
+  width: calc(50% - 5px);
+}
+body .question-container #options .box.selected {
+  background-color: #ffd213;
+}
+body .question-container #options .box.wrong {
+  background-color: #c50700;
+}
+body .question-container #options .box.correct {
+  background-color: #65bb00;
+}
+body #modal {
+  background: rgba(0, 0, 0, 0.8);
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+}
+body #modal .body {
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 500px;
+}
+body .hidden {
+  display: none;
+}
+body .rules {
+  margin: 10px 0;
+  border: 1px solid rgba(255, 255, 255, 0.37);
+  padding: 0 10px;
+  text-align: left;
+  border-radius: 5px;
+  box-shadow: 1px 1px 0 0 #ffffff36;
+}
+body .rules div {
+  padding: 10px;
+  margin-bottom: 10px;
+  background: rgba(255, 255, 255, 0.6);
+  color: black;
+  border-radius: 5px;
+}
+body #start-game-button {
+  background: rgba(255, 255, 255, 0.5);
+  color: black;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+  transition: color, border, background;
+  transition-duration: 200ms;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+body #start-game-button:hover {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+/*# sourceMappingURL=style.css.map */

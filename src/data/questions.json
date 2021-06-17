@@ -1,0 +1,57 @@
+[
+  {
+    "text": "Aşağıdaki dillerden hangisi tarayıcı tarafından desteklenmektedir?",
+    "image": "src/data/languages.jpg",
+    "options": [
+      "Java",
+      "C#",
+      "PHP",
+      "JavaScript"
+    ],
+    "answer": 3
+  },
+  {
+    "text": "Facebook kaç yılında kuruldu?",
+    "options": [
+      "2000",
+      "2002",
+      "2004",
+      "2005",
+      "2006",
+      "2008"
+    ],
+    "answer": 2
+  },
+  {
+    "text": "Sivas Cumhuriyet Üniversitesi hangi şehirdedir?",
+    "image": "/src/data/sivas.png",
+    "options": [
+      "Adana",
+      "İstanbul",
+      "Kayseri",
+      "Sivas"
+    ],
+    "answer": 3
+  },
+  {
+    "text": "Videodaki hareket hangi aracın alışkanlığından kalmadır?",
+    "video": "/src/data/video.mp4",
+    "options": [
+      "Daktilo",
+      "Tablet",
+      "Telefon",
+      "Kağıt"
+    ],
+    "answer": 0
+  },
+  {
+    "text": "Dinlediğiniz sese göre hava durumu nasıldır?",
+    "sound": "/src/data/sound.mp3",
+    "options": [
+      "Güneşli",
+      "Yağmurlu"
+    ],
+    "answer": 1
+  }
+]
+
