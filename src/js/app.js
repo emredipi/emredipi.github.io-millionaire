@@ -158,6 +158,7 @@ $(document).ready(async function () {
 		dom.modal.startGameButton.text('Yeniden Oyna')
 		dom.modal.self.removeClass('hidden');
 		dom.gameContainer.addClass('hidden');
+		dom.extra.html('');
 		dom.modal.data.html(`
 			<h2>Soru Sayısı: ${questions.length}</h2>
 			<h2>Doğru Sayısı: ${game.correct_answers}</h2>
