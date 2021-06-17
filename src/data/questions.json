@@ -1,7 +1,7 @@
 [
   {
     "text": "Aşağıdaki dillerden hangisi tarayıcı tarafından desteklenmektedir?",
-    "image": "src/data/languages.jpg",
+    "image": "src/data/languages.png",
     "options": [
       "Java",
       "C#",
@@ -24,7 +24,7 @@
   },
   {
     "text": "Sivas Cumhuriyet Üniversitesi hangi şehirdedir?",
-    "image": "/src/data/sivas.png",
+    "image": "src/data/sivas.png",
     "options": [
       "Adana",
       "İstanbul",
@@ -35,7 +35,7 @@
   },
   {
     "text": "Videodaki hareket hangi aracın alışkanlığından kalmadır?",
-    "video": "/src/data/video.mp4",
+    "video": "src/data/video.mp4",
     "options": [
       "Daktilo",
       "Tablet",
@@ -46,7 +46,7 @@
   },
   {
     "text": "Dinlediğiniz sese göre hava durumu nasıldır?",
-    "sound": "/src/data/sound.mp3",
+    "sound": "src/data/sound.mp3",
     "options": [
       "Güneşli",
       "Yağmurlu"

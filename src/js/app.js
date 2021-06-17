@@ -68,7 +68,7 @@ class Game {
 }
 
 $(document).ready(async function () {
-	questions = await fetch('/src/data/questions.json')
+	questions = await fetch('src/data/questions.json')
 	.then(response => response.json());
 	const dom = {
 		stats: $('#stats'),
